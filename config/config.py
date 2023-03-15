@@ -27,10 +27,10 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/its-star-boi/ShizukaXMusic",
+    "https://t.me/feelings_of_lav",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/its-star-boi/ShizukaXMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/feelings_of_lav")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Star_X_Network")
@@ -125,9 +125,9 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(
 
 
 if UPSTREAM_REPO:
-    if not re.match("(?:http|https)://", UPSTREAM_REPO):
+    if not re.match("(?:http|https)://t.me/feelings_of_lav", UPSTREAM_REPO):
         print(
-            "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://"https://t.me/feelings_of_lav"
         )
         sys.exit()
 
