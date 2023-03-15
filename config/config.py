@@ -127,7 +127,7 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(
 if UPSTREAM_REPO:
     if not re.match("(?:http|https)", UPSTREAM_REPO):
         print(
-            "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://" https://github.com/its-star-boi/ShizukaXMusic"
+            "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://"github.com/its-star-boi/ShizukaXMusic"
         )
         sys.exit()
 
