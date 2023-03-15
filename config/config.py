@@ -7,21 +7,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "20154655"))
+API_HASH = getenv("API_HASH", "e9c63cacf52d59607b769f13140af417")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6171802649:AAFoCtMLYwyUO9_Rw5fxp7BMtyjK_dyNF4s")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://AlexRobot:AlexRobotOp555@cluster0.emsuz0p.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001643520230"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+MUSIC_BOT_NAME = getenv("THE LAV")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5847378475").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -62,7 +62,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQFHsWAAW9Bt4Yyf_deomBJ-C31jaM7teT59grA_XFkgGZN6GASWbmzvMUZbh8z9ElwLDeE44VLhb07IbEb3G4_Z1fSoERaSQ0Fnb6vzygY8aXyo1XZHPliMiOV-E3vqo4xYfrk3850Sud31vmOqJBN0poMkG9mbrKf-cbN3joeuW3NKtjVYj8ADIYJ69T8ff6_HpSR4s7Ev3BXPOrM0atCQLA3xLSIadg3BkYggM590q7CQCn5i8N8WduuQQ_OJ8S2t-FGTza-UP4kt3-fMZDM4ag2f4qIjxxMQLqasyqDlvKgVrLuDFM6BbnoNms805cyASVUP6Ne9SHDMuc8vws8g64kkfgAAAAEsC0inAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -125,7 +125,7 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(
 
 
 if UPSTREAM_REPO:
-    if not re.match("(?:http|https)://", UPSTREAM_REPO):
+    if not re.match("(?:http|https)://te.legra.ph/file/0b092c4547036fe011523.jpg", UPSTREAM_REPO):
         print(
             "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://"
         )
