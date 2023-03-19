@@ -6,19 +6,19 @@ import random
 
 
 selections = [
-    "▁▄▂▇▄▅▄▅▃",
-    "▁▃▇▂▅▇▄▅▃",
-    "▃▁▇▂▅▃▄▃▅",
-    "▃▄▂▄▇▅▃▅▁",
-    "▁▃▄▂▇▃▄▅▃",
-    "▃▁▄▂▅▃▇▃▅",
-    "▁▇▄▂▅▄▅▃▄",
-    "▁▃▅▇▂▅▄▃▇",
-    "▃▅▂▅▇▁▄▃▁",
-    "▇▅▂▅▃▄▃▁▃",
-    "▃▇▂▅▁▅▄▃▁",
-    "▅▄▇▂▅▂▄▇▁",
-    "▃▅▂▅▃▇▄▅▃",
+    "▁▄▂▇▄𝗟𝗔𝗩▅▄▅▃",
+    "▁▃▇▂▅𝗟𝗔𝗩▇▄▅▃",
+    "▃▁▇▂▅𝗟𝗔𝗩▃▄▃▅",
+    "▃▄▂▄▇𝗟𝗔𝗩▅▃▅▁",
+    "▁▃▄▂▇▃𝗟𝗔𝗩▄▅▃",
+    "▃▁▄▂▅𝗟𝗔𝗩▃▇▃▅",
+    "▁▇▄▂𝗟𝗔𝗩▅▄▅▃▄",
+    "▁▃▅▇𝗟𝗔𝗩▂▅▄▃▇",
+    "▃▅▂▅𝗟𝗔𝗩▇▁▄▃▁",
+    "▇▅▂▅▃𝗟𝗔𝗩▄▃▁▃",
+    "▃▇▂▅𝗟𝗔𝗩▁▅▄▃▁",
+    "▅▄▇▂𝗟𝗔𝗩▅▂▄▇▁",
+    "▃▅▂▅𝗟𝗔𝗩▃▇▄▅▃",
 ]
 
 
@@ -40,7 +40,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://github.com/its-star-boi/ShizukaXMusic"
+                text="🌹 𝗟𝗔𝗩 𝗦𝗘 𝗣𝗨𝗖𝗛𝗛 𝗟𝗢 🌹", url=f"https://github.com/its-star-boi/ShizukaXMusic"
             ),
         ],
         [
@@ -68,7 +68,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://github.com/its-star-boi/ShizukaXMusic"),
+            InlineKeyboardButton(text="🌹 𝗟𝗔𝗩 𝗦𝗘 𝗣𝗨𝗖𝗛𝗛 𝗟𝗢 🌹", url=f"https://github.com/its-star-boi/ShizukaXMusic"),
         ],
         [
             InlineKeyboardButton(
@@ -91,7 +91,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://github.com/its-star-boi/ShizukaXMusic"),
+            InlineKeyboardButton(text="🌹 𝗟𝗔𝗩 𝗦𝗘 𝗣𝗨𝗖𝗛𝗛 𝗟𝗢 🌹", url=f"https://github.com/its-star-boi/ShizukaXMusic"),
         ],
         [
             InlineKeyboardButton(
@@ -282,7 +282,7 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="↻ ʙᴀᴄᴋ ↻",
+                text="㋛︎ 𝗕𝗔𝗖𝗞 ☹︎",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
         ],
